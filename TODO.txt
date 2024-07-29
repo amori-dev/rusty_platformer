@@ -1,13 +1,13 @@
 {TODO}🎯
-* draw platforms
-* platform collision
-* camera follow player
+    * draw platforms
+    * platform collision
+    * camera follow player
 
 
 {COMPLETE}✅
-* player movement
-* grabity
-* player double jump
+    * player movement
+    * gravity
+    * player double jump
 
 
 {BUGS}❌
