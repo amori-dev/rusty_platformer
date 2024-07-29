@@ -53,13 +53,9 @@ fn main() {
         // reset amount of jumps
         if player.is_grounded {
             player.jumps_left = 2;
-        }
-
-        // handle gravity
-        if !player.is_grounded {
-            player.vel.y += player.gravity;
-        } else {
             player.vel.y = 0.0;
+        } else {
+            player.vel.y += player.gravity;
         }
 
         // handle jump
@@ -71,8 +67,8 @@ fn main() {
         player.pos.x += player.vel.x * rl.get_frame_time(); 
         player.pos.y += player.vel.y * rl.get_frame_time(); 
 
-        let mut d = rl.begin_drawing(&thread);
 
+        let mut d = rl.begin_drawing(&thread);
         d.clear_background(bg_color);
         d.draw_texture(&player_texture, player.pos.x as i32, player.pos.y as i32, Color::WHITE);
     }
