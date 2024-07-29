@@ -1,0 +1,14 @@
+{TODO}🎯
+* draw platforms
+* platform collision
+* camera follow player
+
+
+{COMPLETE}✅
+* player movement
+* grabity
+* player double jump
+
+
+{BUGS}❌
+    * NO current bugs
