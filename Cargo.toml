@@ -1,0 +1,14 @@
+[package]
+name = "rusty_platformer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+raylib = "5.0.1"
+
+[profile.dev]
+opt-level = 0
+debug = false
+
+[profile.release]
+opt-level = 3
